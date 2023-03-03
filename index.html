@@ -6,50 +6,62 @@
 <link rel="stylesheet" href="css/style.css">
 </head>
  <body>
-    <table class="header-nav">
-      <tr>
-        <th><img src="./fone.png"></img>(67) 3056-9300</th>
-        <th><img src="./zap.png"></img>(67) 98205-0034</th>
-        <th><img src="./icone_instagram.png"></img></th>
-        <th><img src="./icone_facebook.png"></img></th>
-      </tr>
-    </table>
-    <table class="main-nav">
-      <tr>
-        <td><img src="./LOGO_ORIG.png"> </td>
-        <td> INSTRUÇÕES DE COLETA </td>
-        <td> EMPRESA </td>
-        <td> ENDEREÇOS </td>
-        <td> CERTIFICAÇOES </td>
-        <td> DICAS </td>
-        <td> CONTATOS </td>
-      </tr>
-    </table>
-    <div class="div-principal">
-      <div class="form">
-        <img src="./resultado_exames.png">
-        <select>
-          <option>Paciente</option>
-          <option>Médico</option>
-          <option>Convênio</option>
-          <option>Posto</option>
-          <option>Destino</option>
-        </select>
-        <input type="text" placeholder="Insira Seu Login">
-        <input type="text" placeholder="Insira Sua Senha">
-        <button>Acesse os Exames</button>
+    <div class="header-nav">
+      <!-- essas duas divs servem para o flex 
+      definir um espaço entre as duas divs (between) -->
+      <div>
+        <span class="">
+          <img src="./img/fone.png"></img><span>(67) 3056-9300</span>
+        </span>
+        <span class="">
+          <img src="./img/zap.png"></img><span>(67) 98205-0034</span>
+        </span>
       </div>
       <div>
-        <img src="./certifica.png">
+        <span >
+          <img src="./img/icone_instagram.png"></img>
+        </span>
+        <span class="padding-right">
+          <img src="./img/icone_facebook.png"></img>
+        </span>
       </div>
     </div>
-    <table class="last-table">
-      <th>
-        <td><img src="./quadrados_azul1_01.png"></img></td>
-        <td><img src="./agend.png"></img> </td>
-        <td><img src="coleta_resid.png"></img></td>
-        <td><img src="./plan_saude.png"></img></td>
-      </th>
-    </table>
+    <div class="main-nav">
+      <img height="83px" width="206px" src="./img/LOGO_ORIG.png">
+      <ul class="menu">
+        <li>INSTRUÇÕES DE COLETA</li>
+        <li>EMPRESA</li>
+        <li>ENDEREÇOS</li>
+        <li>CERTIFICAÇOES</li>
+        <li>DICAS</li>
+        <li>CONTATOS</li>
+      </ul>
+    </div>
+    <div class="div-principal">
+      <div class="form">
+        <img src="./img/resultado_exames.png">
+        <div class="center">
+          <select>
+            <option>Paciente</option>
+            <option>Médico</option>
+            <option>Convênio</option>
+            <option>Posto</option>
+            <option>Destino</option>
+          </select>
+          <input type="text" placeholder="Insira Seu Login">
+          <input type="text" placeholder="Insira Sua Senha">
+          <button>Acesse os Exames</button>
+        </div>
+      </div>
+      <div>
+        <img src="./img/certifica.png">
+      </div>
+    </div>
+    <div class="last-div">
+      <img src="./img/quadrados_azul1_01.png"></img>
+      <img src="./img/agend.png"></img>
+      <img src="./img/coleta_resid.png"></img>
+      <img src="./img/plan_saude.png"></img>
+    </div>
  </body>
  </html>
